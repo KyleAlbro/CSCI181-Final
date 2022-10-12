@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+html {
+    background-color: rgb(118, 219, 219);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* body styles */
+body {
+    background-color: rgb(88, 179, 159);
+    position: fixed;
+    height: 100%;
+    width: 99.25%;
+}
+
+/* header and footer styles */
+header,
+footer {
+    background-color: rgba(118, 219, 219, 1.0);
+    margin-top: .5em;
+    text-align: center;
+    align-items: center;
+
+}
+
+h1,
+h2,
+img,
+header {
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: .001em;
+}
+
+/* paragraph styles */
+p {
+    color: rgb(34, 33, 33);
+}
+
+/* list styles */
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside>a {
+    text-decoration: none;
+    color: purple;
+}
+
+/* paragraph styles */
+p {
+    line-height: 1.2em;
+    margin-left: 1em;
+    margin-bottom: 3.5em;
+}
+
+aside {
+    line-height: 1.2em;
+    text-align: left;
+    margin-left: 1em;
+    margin-bottom: 11.3em;
+}
+
+/* figure styles */
+div>figure>img {
+    display: block;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+div>figure>figcaption {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* transformation */
+/* .bitty{
+    transform: scale(0.8, 0.8) rotateZ(30deg);
+}
+.specs{
+    transform: scale(0.8, 0.8) rotateZ(-30deg);
+
+} */
+
+/* this is doing what is above but its not rotating the images */
+figure>img {
+    transform: scale(0.9, 0.9);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

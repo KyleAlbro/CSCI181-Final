@@ -1,0 +1,46 @@
+div.formRow {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 7px 0px;
+}
+
+div.formRow > *{
+    -webkit-flex: 1 1 150px;
+    flex: 1 1 150px;
+}
+
+form#survey {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+form#survey > fieldset{
+    background-color: rgb(102, 202, 164);
+    border-radius: 20px;
+    -webkit-flex: 1 1 300px;
+    flex: 1 1 300px;
+    font-size: 0.85em;
+    padding: 10px;
+    margin: 10px;
+}
+
+legend {
+    background-color: rgb(74, 173, 135);
+    color: white;
+    padding: 5px;
+}
+
+.questions{
+    height: 250px;
+}
+
+
+.questions > input{
+    height: 200px;
+    width: 98.5%;
+    margin-right: -4px;
+}

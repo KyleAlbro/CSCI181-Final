@@ -1,0 +1,49 @@
+/* grid styles */
+div[class="row-"]{
+    clear: both;
+}
+div.row::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+div[class^="col-"]{
+    float: left;
+}
+div.col-1-3a {width: 33%}
+div.col-1-3b {width: 33%}
+div.col-1-3c {width: 33%}
+
+
+.shadow{
+    box-shadow: black 0px 0px 10px 1px;
+}
+
+/* hyperlink styles */
+nav>ul>li>a {
+    font-size: 1.2em; 
+    text-decoration: none;
+    line-height: 2em;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    color: purple;
+}
+p>a{
+    color: purple;
+    text-decoration: none;
+}
+
+/* rounded border */
+nav>ul>h2{
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+h4{
+    color:rgb(88, 179, 159);
+}
+
+
+/* div{
+    outline: 1px solid red;
+} */

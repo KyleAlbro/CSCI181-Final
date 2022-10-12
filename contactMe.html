@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="resetPage.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="form.css">
+
+    <script src="rb_formsubmit.js"></script>
+</head>
+
+<body>
+    <header class="shadow">
+        <h2>Contact Me</h2>
+    </header>
+    <div class="row">
+
+        <!-- column 1 -->
+        <div class="col-1-3a">
+            <div class="row-1-2">
+                <nav>
+                    <ul>
+                        <h2>Useful Links</h2>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutMe.html">About Me</a></li>
+                        <li><a href="skillsAndServices.html">Skills and Services</a></li>
+                        <li><a href="myWork.html">My Work</a></li>
+                        <li><a href="contactMe.html">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="row-1-2">
+
+            </div>
+        </div>
+
+        <!-- column 2 -->
+        <div class="col-1-3b">
+            <form id="survey" action="http://www.example.com/kyleA/survey" method="post">
+                <fieldset id="custInfo">
+                    <legend>Contact Info</legend>
+                    <div class="formRow">
+                        <label for="name">Name</label>
+                        <input name="custName" id="name" type="text" placeholder="first and last name">
+                    </div>
+
+                    <div class="formRow">
+                        <label for="custPhone">Phone Number</label>
+                        <input name="custPhone" id="name" type="tel" placeholder="(nnn) nnn-nnnn">
+                    </div>
+
+                    <div class="formRow">
+                        <label for="custEmail">E-mail</label>
+                        <input name="custEmail" id="name" type="email" placeholder="example@example.com">
+                    </div>
+                </fieldset>
+
+                <fieldset id="expInfo" class="questions">
+                    <legend>Questions:</legend>
+                    <input name="ques" id="questions" type="text" >
+                </fieldset>
+            </form>
+        </div>
+
+        <!-- column 3 -->
+        <div class="col-1-3c">
+
+        </div>
+    </div>
+    <div class="row">
+        <footer> &#8711; Kyle's Contact Page &#8711;</footer>
+    </div>
+
+</body>
+
+</html>
