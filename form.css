@@ -38,8 +38,7 @@ legend {
     height: 250px;
 }
 
-
-.questions > input{
+.questions > textarea{
     height: 200px;
     width: 98.5%;
     margin-right: -4px;

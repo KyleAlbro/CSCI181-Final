@@ -13,6 +13,7 @@ div[class^="col-"]{
 div.col-1-3a {width: 33%}
 div.col-1-3b {width: 33%}
 div.col-1-3c {width: 33%}
+div.col-2-3 {width: 66%}
 
 
 .shadow{
@@ -31,12 +32,6 @@ nav>ul>li>a {
 p>a{
     color: purple;
     text-decoration: none;
-}
-
-/* rounded border */
-nav>ul>h2{
-    border: 3px solid black;
-    border-radius: 30px;
 }
 
 h4{

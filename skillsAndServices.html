@@ -8,6 +8,9 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="resetPage.css">
     <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="table.css">
+
 
 </head>
 
@@ -20,7 +23,7 @@
         <!-- column 1 -->
         <div class="col-1-3a">
             <div class="row-1-2">
-                <nav>
+                <nav class="yourNav">
                     <ul>
                         <h2>Useful Links</h2>
                         <li><a href="index.html">Home</a></li>
@@ -37,45 +40,65 @@
         </div>
 
         <!-- column 2 -->
-        <div class="col-1-3b">
-            <h1>My Experience</h1>
-            <h3>Coding Experience</h3>
-            <ul>
-                
-                <li>HTML</li>
-                <ul>
-                    <li>Multiple Webpages</li>
-                </ul>
-                <li>&nbsp;</li>
+        <div class="col-2-3">
+            <h1>My Coding Experience</h1>
+            <table class="schedule">
+                <colgroup>
+                    <col id="firstCol">
+                    <col class="dayCols" span="4">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>HTML + CSS</th>
+                        <th>Python</th>
+                        <th>Java</th>
+                        <th>Javascript</th>
 
-                <li>Python</li>
-                <ul>
-                    <li>Stock Predictor</li>
-                </ul>
-                <li>&nbsp;</li>
-                <li>Web Design</li>
-                <ul>
-                    <li>Custom Web pages</li>
-                </ul>
-                <li>&nbsp;</li>
-                
-                <li>&nbsp;</li>
-                <h3>Platforms Used</h3>
-                <ul>
-                    <li>Visual Studio Code</li>
-                    <li>&nbsp;</li>
-                    <li>Notepad</li>
-                    <li>&nbsp;</li>
-                    <li>IDLE</li>
-                </ul>
-            </ul>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Program Used</th>
+                        <td>Visual Studio Code</td>
+                        <td>IDLE</td>
+                        <td>Code Composer Studio</td>
+                        <td>Khan Academy</td>
+
+                    </tr>
+                    <tr>
+                        <th>Amount of Projects Completed</th>
+                        <td>40 - 50</td>
+                        <td>40 - 50</td>
+                        <td>10 - 20</td>
+                        <td>10 - 20</td>
+
+                    </tr>
+                    <tr>
+                        <th>Average Grade</th>
+                        <td>90%</td>
+                        <td>75%</td>
+                        <td>80%</td>
+                        <td>90%</td>
+                    </tr>
+                    <tr>
+                        <th>What Can I Do</th>
+                        <td>Custom Web Pages</td>
+                        <td>Custom Programs</td>
+                        <td>Custom Programs w/ MSP430 Launchpad</td>
+                        <td>Movement in a Web page</td>
+                    </tr>
+                   
+                </tbody>
+
+            </table>
+
 
         </div>
 
-        <!-- column 3 -->
-        <div class="col-1-3c">
 
-        </div>
+
+    </div>
     </div>
     <div class="row">
         <footer> &#8711; Kyle's Skills and Services &#8711;</footer>
