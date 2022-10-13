@@ -87,13 +87,13 @@ div>figure>figcaption {
 }
 
 /* transformation of cats*/
-.bitty{
+/* .bitty{
     transform: scale(0.8, 0.8) rotateZ(30deg);
 }
 .specs{
     transform: scale(0.8, 0.8) rotateZ(-30deg);
 
-}
+} */
 .farris{
     transform: scale(1.4, 1.3);
 }
